@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>注册</title>
+  <link href="https://cdn.bootcss.com/minireset.css/0.0.2/minireset.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" media="(max-width:700px)" href="css/mobile.css">
+</head>
+<body>
+  <header>
+  <div class="container clearf">
+    <div class="fl">
+      <a class="item" id="title">xx网</a>
+    </div>
+    <div class="fr">
+      <a  class="item" id="header_name"></a>
+    </div>
+  </div>
+  </header>
+  <nav>
+    <div class="container">
+      <ul class="list">
+        <li><a href="#">其他页面</a></li>
+        <li><a href="#">其他页面</a></li>
+        <li><a href="#">其他页面</a></li>
+        <li><a href="#">其他页面</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <div class="container">
+      <div class="login">
+        <div class="top">
+          <p class="main">新用户？</p>
+          <p class="sub">创建一个新用户</p>
+        </div>
+        <form id="sign" method="post" action="http://localhost:1337/">
+          <div class="wrapper">
+            <input type="text" id="username" name="username" data-rule = 'minLength:2|maxLength:15'>
+            <label for="username">账号</label>
+            <p class="error">*格式错误,要大于2个字符，小于15个字符</p>
+          </div>
+          <div class="wrapper">
+            <input type="password" id="password" name="password" data-rule = 'minLength:6|maxLength:20'>
+             <label for="password">密码</label>
+            <p class="error">*格式错误，要大于6个字符，小于20个字符</p>
+          </div>
+          <div class="wrapper">
+            <input type="password" id="comfirm_password" name="comfirm_password" data-rule = 'confirm:"confirm"|required:"required"'>
+             <label for="comfirm_password">再次输入密码</label>
+            <p class="error">*两次输入密码不一致</p>
+          </div>
+          <button class="submit">注册</button>
+        </form>
+      </div>
+
+      <div class="sign">
+        <p class="main">已经有账号？</p>
+        <p class="sub"><a href="#" class="rel">欢迎回来</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+
+  </footer>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/Validator.js"></script>
+<script src="js/Input.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

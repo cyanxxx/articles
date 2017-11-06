@@ -1,0 +1,154 @@
+a{
+  color: #fff;
+}
+
+header{
+  padding-top:48px;
+  background:#fff;
+  box-shadow: 0 2px 1px 1px rgba(0,0,0,0.15);
+}
+header a{
+  color:#c3c3c3;
+}
+
+#title:before {
+  content:"";
+  display: inline-block;
+  background: url("../pic/menu.png");
+  width:25px;
+  height: 20px;
+  vertical-align:middle;
+  margin-right:8px;
+  cursor: pointer;
+}
+.item{
+  display:block;
+  padding-bottom:20px;
+
+}
+
+nav{
+  position: relative;
+  top:-9999em;
+  background:#282d30;
+  color:#fff;
+}
+nav .list a{
+  background:#282d30;
+   padding:5px;
+    width: 70%;
+    margin: 0 auto;
+    transition: all 0.15s ease-in-out;
+}
+nav .list a:hover{
+  letter-spacing:3px;
+  font-weight: bold;
+}
+.active{
+  position: static;
+  top:0;
+}
+.list{
+  font-size:14px;
+  text-align:center;
+}
+.list li{
+  display:inline-block;
+  width:25%;
+  margin-left:-10px;
+}
+
+/*--------------------login/sign----------------*/
+section{
+  height: 500px;
+}
+.login{
+  height: 100%;
+  margin-top:65px;
+  text-align: center;
+}
+.login,
+.sign{
+  display: inline-block;
+  width: 50%;
+  margin-right: -3px;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+.top{
+  padding: 10px 0;
+}
+.top .main,
+.sign .main{
+  color:#000;
+  font-size:20px;
+  margin-bottom:5px;
+}
+form{
+  margin-top:24px;
+  color: #c4c2c3;
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+}
+form div{
+  margin-bottom:40px;
+
+}
+.wrapper{
+  font-size:16px;
+  position:relative;
+}
+.wrapper input,
+.wrapper input{
+  width:100%;
+  height:100%;
+  outline:0;
+  border:0;
+  padding:10px;
+  border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.add input{
+  border-bottom: 1px solid rgba(17,163,136,.85);
+}
+.add label{
+  top:-25px;
+  bottom:0;
+}
+section .error{
+  color:#fb2424;
+  display:none;
+  text-align:right;
+  font-size:10px;
+  padding-top:5px;
+}
+form label{
+  position:absolute;
+  bottom:0;
+  left:10px;
+  top:10px;
+  font-size:14px;
+  height: 14px;
+}
+.submit{
+  cursor:pointer;
+  background:#11a388;
+  color:#fff;
+  outline:0;
+  border:0;
+  width:230px;
+  padding:7px 0;
+  border-radius: 3px;
+  font-size: 18px;
+  box-shadow: 0 1px 3px 1px rgba(0,0,0,.35);
+  transition: all 0.3s ease-in-out;
+}
+.submit:hover{
+  background:#0e8670;
+}
+.sub,
+.sub .rel{
+  color: #c3c3c3;
+  letter-spacing: 2.5px;
+}

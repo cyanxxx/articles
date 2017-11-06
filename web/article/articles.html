@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="../../css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="articles">
+      <div class="user">
+        <div class="top clearf">
+          <div class="title fl"><a href="">{{title}}</a></div>
+          <div class="date fr">{{date}}</div>
+        </div>
+        <div class="usermsg">
+          <a href="" class="user_img" data-load='false' popups-owns='user-457'>
+            <img src="pic/user.png" alt="user_image">
+          </a>
+          <div class="msg">
+            <a class="name" href="">{{user}}</a>
+            <p class="intro">{{intro}}</p>
+          </div>
+        </div>
+        <div class="articles_wrapper">
+          <div class="articles_ctx">
+            <span class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+               sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </span>
+            <button type="button" name="button">阅读全文</button>
+          </div>
+        </div>
+        <div class="sub_wrapper">
+          <button type="button" class="like_btn hover_action">
+              <i class="iconfont icon-like"></i>
+              {{like_num}}
+            </button>
+          <button type="button" class="comment_btn">
+              <i class="iconfont icon-comment"></i>
+              回复
+            </button>
+          <button type="button" class="dislike_btn">
+              <i class="iconfont icon-dislike"></i>
+              踩
+            </button>
+          <button type="button" class="collect_btn">
+            <i class="iconfont icon-shoucang"></i>
+            收藏
+          </button>
+          <button type="button" class="report_btn">
+              <i class="iconfont icon-jubao"></i>
+              举报
+            </button>
+        </div>
+        <div class="comment_container">
+          <div class="top clearf">
+            <p class="comments fl">{{comment_num}}条评论</p>
+            <button class="fr">切换{{order}}顺序</button>
+          </div>
+          <div class="comment_wrapper">
+            <div class="comment_item">
+              <div class="clearf">
+                <a href="" class="user_img" data-load='false' popups-owns='user-467'>
+                  <img src="pic/user.png" alt="">
+                </a>
+                <a href="">{{username}}</a>
+                <spam class="fr comment_date">{{comment_date}}</p>
+              </div>
+              <p class="comment_text">{{comment_text}}</p>
+              <div class="sub_wrapper">
+                <button type="button" class="like_btn hover_action">
+                    <i class="iconfont icon-like"></i>
+                    {{like_num}}
+                  </button>
+                <button type="button" class="comment_btn">
+                    <i class="iconfont icon-comment"></i>
+                    回复
+                  </button>
+                <button type="button" class="dislike_btn">
+                    <i class="iconfont icon-dislike"></i>
+                    踩
+                  </button>
+                <button type="button" class="report_btn">
+                    <i class="iconfont icon-jubao"></i>
+                    举报
+                  </button>
+              </div>
+              <div class="recomment">
+                <input type="text" placeholder="回复{{username}}">
+                <div class="recomment_action">
+                  <button type="button" class="comment_cancel">取消</button>
+                  <button type="button" class="comment">评论</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="page line">
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <span>...</span>
+            <a href="">{{max}}</a>
+            <a href="">下一页</a>
+          </div>
+          <div class="add_comment line">
+            <input type="text" name="" value="" placeholder="写下你的回复...">
+            <div class="comment_action">
+              <button type="button" class="comment_cancel">取消</button>
+              <button type="button" class="comment">评论</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="articles">
+      <div class="user">
+        <div class="top clearf">
+          <div class="title fl"><a href="">{{title}}</a></div>
+          <div class="date fr">{{date}}</div>
+        </div>
+        <div class="usermsg">
+          <a href="" class="user_img" data-load='false' popups-owns='user-407'>
+            <img src="pic/user.png" alt="user_image">
+          </a>
+          <div class="msg">
+            <a class="name" href="">{{user}}</a>
+            <p class="intro">{{intro}}</p>
+          </div>
+        </div>
+        <div class="articles_wrapper">
+          <div class="articles_ctx">
+            <span class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+               sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </span>
+            <button type="button" name="button">阅读全文</button>
+          </div>
+        </div>
+        <div class="sub_wrapper">
+          <button type="button" class="like_btn hover_action">
+              <i class="iconfont icon-like"></i>
+              {{like_num}}
+            </button>
+          <button type="button" class="comment_btn">
+              <i class="iconfont icon-comment"></i>
+              回复
+            </button>
+          <button type="button" class="dislike_btn">
+              <i class="iconfont icon-dislike"></i>
+              踩
+            </button>
+          <button type="button" class="collect_btn">
+            <i class="iconfont icon-shoucang"></i>
+            收藏
+          </button>
+          <button type="button" class="report_btn">
+              <i class="iconfont icon-jubao"></i>
+              举报
+            </button>
+        </div>
+        <div class="comment_container">
+          <div class="top clearf">
+            <p class="comments fl">{{comment_num}}条评论</p>
+            <button class="fr">切换{{order}}顺序</button>
+          </div>
+          <div class="comment_wrapper">
+            <div class="comment_item">
+              <div class="clearf">
+                <a href="" class="user_img" data-load='false' popups-owns='user-437'>
+                  <img src="pic/user.png" alt="">
+                </a>
+                <a href="">{{username}}</a>
+                <spam class="fr comment_date">{{comment_date}}</p>
+              </div>
+              <p class="comment_text">{{comment_text}}</p>
+              <div class="sub_wrapper">
+                <button type="button" class="like_btn hover_action">
+                    <i class="iconfont icon-like"></i>
+                    {{like_num}}
+                  </button>
+                <button type="button" class="comment_btn">
+                    <i class="iconfont icon-comment"></i>
+                    回复
+                  </button>
+                <button type="button" class="dislike_btn">
+                    <i class="iconfont icon-dislike"></i>
+                    踩
+                  </button>
+                <button type="button" class="report_btn">
+                    <i class="iconfont icon-jubao"></i>
+                    举报
+                  </button>
+              </div>
+              <div class="recomment">
+                <input type="text" placeholder="回复{{username}}">
+                <div class="recomment_action">
+                  <button type="button" class="comment_cancel">取消</button>
+                  <button type="button" class="comment">评论</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="page line">
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <span>...</span>
+            <a href="">{{max}}</a>
+            <a href="">下一页</a>
+          </div>
+          <div class="add_comment line">
+            <input type="text" name="" value="" placeholder="写下你的回复...">
+            <div class="comment_action">
+              <button type="button" class="comment_cancel">取消</button>
+              <button type="button" class="comment">评论</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+  <script src="js/hoverImage.js"></script>
+  <script src="js/Btn.js"></script>
+  <script src="js/popups.js"></script>
+  <script src="js/sendAjax.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

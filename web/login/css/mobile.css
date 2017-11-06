@@ -1,0 +1,14 @@
+.login,
+.sign{
+	width: 100%;
+	display: block;
+}
+.login,
+.sign{
+	margin-top: 0;
+	margin-right:0;
+}
+.sign{
+	vertical-align: baseline;
+	margin-top:35px;
+}
